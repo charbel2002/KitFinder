@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Digital one</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		
+		<link rel="stylesheet"  media="screen and (min-width:1200px)" href="stylesheets/main.css">
+		<link rel="stylesheet"  media="screen and (min-width:1200px)" href="stylesheets/header.css">
+		<link rel="stylesheet"  media="screen and (min-width:1200px)" href="stylesheets/other.css">
+		<link rel="stylesheet"  media="screen and (min-width:1200px)" href="stylesheets/footer.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&family=Rubik&display=swap" rel="stylesheet">   
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		 <link rel="stylesheet" media="screen and (max-width:600px)" href="stylesheets/mobiles/gen_rule.css">
+		 <link rel="stylesheet" media="screen and (max-width:600px)" href="stylesheets/mobiles/header.css">
+		 <link rel="stylesheet" media="screen and (max-width:600px)" href="stylesheets/mobiles/">
+		 <link rel="stylesheet" media="screen and (max-width:600px)" href="stylesheets/mobiles/footer.css">
+		 <link rel="stylesheet" media="screen and (max-width:600px)" href="stylesheets/mobiles/">
+		 <link rel="stylesheet" media="screen and (max-width:600px)" href="stylesheets/mobiles/">
+		 <link rel="stylesheet" media="screen and (max-width:600px)" href="stylesheets/mobiles/">
+
+		
+		<script src=""></script>
+		<script src="https://kit.fontawesome.com/3a62260625.js" crossorigin="anonymous"></script>
+		
+	</head>
+	
+	<body>
+		
+		
+		
+		<section id="full-content" class="gn-block">
+			
+			<article id="full-items" class="gn-block">
+				<article id="motion" class="wh-color gn-block">
+					<h1 class="gn-block">Digital one</h1>
+					<p class="gn-block">
+						Conception de vos divers sites webs et installation des syt&egrave;mes d'exploitation:Windows et Divers distributions
+						Linux
+					</p>
+				</article>
+				<div id="join-me" class="wh-color " class="gn-block">
+					<ul>
+						<h1>Contactez moi</h1>
+						<li class="join-links cl-white"><a href="https://m.me/morel.hessou.77" id="facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
+						<li class="join-links cl-green"><a href="https://wa.me/22995275833" id="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+						<li class="join-links cl-redGEN"><a href="#" id="gmail"><i class="fas fa-at"></i> Gmail</a></li>
+					</ul>
+					
+					
+				</div>
+				
+					<div id="mail-space">
+								<form methode="post" action="#" id="msg-form">
+									<textarea name="mail-msg" placeholder="Envoyez moi un mail..." cols="50" rows="5"></textarea><br>
+									<button type="submit" id="mailme_btn"><i class="far fa-paper-plane"></i> Envoyer</button>
+								</form>
+					</div>
+				
+				<script>
+						var linkT=document.querySelector(".cl-redGEN");
+						var target=document.getElementById("mail-space");
+						var i=0;
+							linkT.addEventListener("click",function(){
+								i++;
+								if(i==1){
+									target.style.padding="20px";
+									document.getElementById("msg-form").style.display="block";
+								}		
+								if(i==2){
+									target.style.padding="0px";
+									document.getElementById("msg-form").style.display="none";
+									i=0;
+								}							
+							});
+				</script>
+				<li id="ref_serv"><a id="tarifs" href="#services" onclick="">Autres services</a></li>
+			</article>
+			
+			<article id="imageME">
+					
+			</article>
+			
+			<article id="motivation"  class="gn-block">
+			<blockquote id="citation">We got a dream, a big one, this is reason why we're doing something nobody gona do</blockquote>
+		</article>
+		
+					<script>
+							
+							var img_section=document.getElementById("imageME");
+							
+								if(window.innerWidth<=600){
+									img_section.remove();
+								}
+							
+					</script>
+			
+		</section>
+		
+		
+		<section id="other" class="gn-block">
+				
+				<article id="intro-full" class="gn-block">
+					
+							<h1>je me pr&eacute;sente</h1>
+						<p class="gn-block">
+							<span id="upper">j</span>e m'appelle HESSOU Morel Charbel, je suis un vrai passionn&eacute; de la programmation dans tous ses aspects et divisions, je me mets &agrave; votre
+							service afin de vous rendre un service de qualit&eacute; &agrave; prix raisonnable. j'aime les d&eacute;tails, et je ne me plein jamais tant qu'il
+							s'agit de programmer. Par ailleurs, je suis un amoureux de l'anglais et je suis parano en ce qui concerne la qualit&eacute; de mon travail
+							<br><span class="signIT">#Digital_one</span>
+						</p>
+				</article>
+				
+				<div id="service-space" class="gn-block">
+						<h1>autres services</h1>
+						
+						<ul id="services">
+							<li class="serv-links"><a href="#" class="serv-items">Installation de vos syst&egrave;mes d'exploitation</a>
+								<ul>
+									<li><a href="#">Windows 7 <i class="fab fa-windows"></i></a></li>
+									<li><a href="#">Windows 8.1 <i class="fab fa-windows"></i></a></li>
+									<li><a href="#">Windows 10 <i class="fab fa-windows"></i></a></li>
+									<li><a href="#">Distributions Linux(option live, virtual box ou machine) <i class="fab fa-linux"></i></a></li>
+								</ul>
+							</li>
+							<li class="serv-links"><a href="#" class="serv-items">Avoir des jeux vid&eacute;os</a></li>
+							<li class="serv-links"><a href="#" class="serv-items">Se former au d&eacute;veloppement web <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i></a></li>
+						</ul>
+				</div>
+				
+				
+				<aside id="as-one" class="gn-block">
+						
+							<div class="as-one">
+								<span class="KT_pm">KitFinder ? </span><br><br>
+								<span class="KT_pm">Le march&eacute; virtuel du futur ! &#128561;</span><br>									
+							</div>
+							<button class="curious-yh">En savoir plus ?</button>
+											
+				</aside>
+				
+				<aside style="color: white;" id="as-two" class="gn-block">
+					
+					<h1 style="font-size: 25px;font-style:italic;">Tu as perdu le password de ton pc ? &#128561;</h1>
+					<p style="font-size: 18px;width: 50%;text-align: justify; margin: 20px;font-style:italic;font-family: 'Agency FB'; font-weight: bold;">
+						R&eacute;cup&egrave;re  facilement l'acc&egrave;s &agrave; ordinateur en moins de 2 heures
+					</p>
+					
+				</aside>
+				
+				<div id="commentaires" class="gn-block">
+						<h1>Vos impression par rapport au site web</h1>
+						
+						<form method="post">
+							<input type="text" placeholder="Votre email..." name="mailADD" class="inputText"><br>
+							<textarea name="comments" placeholder="Vos commentaires par rapport au site uniquement..." rows="5" cols="70"></textarea><br>
+							<button type="submit" id="cmt-send">Commenter</button>
+							<button type="reset">R&eacute;initialiser</button>
+						</form>
+				
+				</div>
+				
+			</section>
+		
+		<section id="site-footer" class="gn-block">
+			
+			<address>
+			
+				Email:indrabg2002@gmail.com
+				
+			</address>
+			<div>&copy; Digital one siteMaster All right reserved</div> 
+			
+		</section>
+		
+	</body>
+	
+
+</html>
