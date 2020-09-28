@@ -1,0 +1,184 @@
+﻿
+@font-face{
+	font-family: Amiri;
+	src: url("Lemonada-Light.ttf");
+}
+
+
+#other,#commentaires{
+	background: #d3d3d3;
+	margin: 0px;
+}
+
+#intro-full{
+	width: 650px;
+	padding: 20px;
+	margin: auto;
+}
+
+#upper{
+	font-size: 30px;
+	color: grey;
+	text-transform: uppercase;
+}
+
+#intro-full p{
+	font-size: 18px;
+	text-align: justify;
+	width: 80%;
+	border-left: 8px solid #1d2a80;
+	padding-left: 10px;
+}
+
+#intro-full h1{
+	color: #1d2a80;
+	margin-left: 160px;
+	width: 50%;
+}
+
+/*aside formating*/
+
+#as-one{
+	float: right;
+}
+
+#as-two{
+	margin-left: 60px;
+}
+
+aside{
+	padding: 4px;
+	border: 2px solid gold;
+	border-radius: 15px;
+	width: 25%;
+	margin-right: 50px;
+	margin-top: 40px;
+	background: black;
+}
+
+.as-one{
+	font-family: 'Montserrat', sans-sérif;
+	color: white;
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
+
+.signIT{
+	float: right;
+	color: #1d2a80;
+}
+
+.KT_pm{
+	font-family: impact;
+	font-size: 25px;
+}
+
+.curious-yh{
+	padding: 20px;
+	border: none;
+	font-family: sans-serif-sérif, verdana, helvetica;
+	font-weight: bold;
+	border-radius: 10px;
+	margin: 8px;
+	margin-left: 85px;
+	cursor: pointer;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.curious-yh:hover{
+	width: 180px;
+}
+
+/*AUTRES SERVICES FORMATING*/
+
+#service-space{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	border: 1px solid #1d2a80;
+	padding: 0px;
+}
+
+#service-space h1{
+	font-size: 30px;
+	font-family: 'Montserrat',sans-sérif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	background: #1d2a80;
+}
+
+#services{
+	list-style-type: none;
+	padding: 0px;
+	margin-left: 25px;
+	list-style: square;
+}
+
+#services ul li a, #services li a{
+	text-decoration: none;
+	color: black;
+}
+
+#services ul li a{
+	font-size: 18px;
+}
+
+.serv-links{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+
+/*comments space formating*/
+
+#commentaires{
+	margin: auto;
+	width: 700px;
+}
+
+#commentaires h1{
+	font-size: 25px;
+	margin-left: 130px;
+	color: #1d2a80;
+}
+
+#commentaires form{
+	text-align: center;
+}
+
+#commentaires form input[type=text],#commentaires form textarea{
+	width: 562px;
+	padding: 8px;
+	font-size: 18px;
+	margin: 6px;
+}
+
+#commentaires form input[type=text]:focus,#commentaires form textarea:focus{
+	border: 2px groove dodgerblue;
+}
+
+#commentaires form button{
+	padding: 15px;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background: #252d78;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+
+#commentaires form button[type=reset]{
+	padding: 15px;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background: #ff4432;
+	border-radius: 15p
+}

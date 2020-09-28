@@ -1,0 +1,168 @@
+﻿	
+#imageME{
+	width: 30%;
+	height: 610px;
+	border: 1px solid green;
+}
+
+#full-items{
+	width: 69%;
+	float: right;
+}	
+
+#full-content{
+	
+	background-image: url("../images/hdBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.wh-color{
+	color: white;
+}
+
+#join-me h1{
+	font-size: 40px;
+	font-family: 'Roboto Condensed',sans-sérif;
+}
+
+#join-me ul{
+	margin: 0px;
+	list-style-type: none;
+}
+
+#join-me ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 20px;
+}
+
+#join-me ul li{
+	cursor: pointer;
+	display: inline-block;
+	padding: 8px;
+}
+
+.cl-white{
+	background: dodgerblue;
+	opacity: 0.8;
+}
+
+.cl-green{
+	background: #15511c;
+	opacity: 0.8;
+}
+
+.cl-redGEN{
+	background: #ff6e4d;
+	opacity: 0.8;
+}
+
+#mail-space{
+	transition: 2s;
+	position: absolute;
+	right: 0px;
+	top: 200px;
+	background: white;
+	height: 150px;
+	border-right: 30px solid dodgerblue;
+}
+
+#mail-space form{
+	text-align: center;
+	display: none;
+}
+
+#mail-space form textarea:focus{
+	border: 1px solid dodgerblue;
+}
+
+#mail-space form button{
+	padding: 10px;
+	font-size: 22px;
+	border: none;
+	background: #2d9124;
+	border-radius: 15px;
+	color: white;
+	font-family: andalus;
+	text-align: center;
+	font-weight: bold;
+}
+
+#mail-space form button:active{
+	width: 150px;
+}
+
+/*header text formating*/
+
+#motion h1{
+	font-size: 60px;
+	font-family: 'Montserrat',sans-sérif;
+	margin-left: 40px;
+	background: black;
+	opacity: 0.6;
+}
+
+#motion p{
+	width: 400px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 40px;
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+#intro-full h1{
+	font-size: 30px;
+	font-family: 'Lato',sans-sérif;
+	text-transform: uppercase;
+}
+
+#intro-full p{
+	font-size: 20px;
+	font-family: 'Rubik',sans-sérif;
+}
+
+#tarifs{
+	font-size: 20px;
+	font-family: 'Rubik',sans-sérif;
+	color: white;
+	cursor: pointer;
+	clear: both;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+#ref_serv{
+	display: block;
+	width: 250px;
+	border: 2px solid gold;
+	background: black;
+	margin-left: 500px;
+	margin-top: 30px;
+	outline-offset: 0px;
+	-moz-border-radius: 30px;
+	 -webkit-border-radius: 30px;
+	 text-align: center;
+	 opacity: 0.7;
+}
+
+
+#motivation{
+	width: 100%;
+	background: black;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#citation{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+}

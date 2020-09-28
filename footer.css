@@ -1,0 +1,19 @@
+﻿
+
+#site-footer{
+	background: black;
+	text-align: center;
+	padding: 50px;
+}
+
+#site-footer div{
+	color: white;
+	font-family: 'Montserrat',sans-sérif;
+	font-size: 30px;
+}
+
+#site-footer address{
+	color: #ff6e4d;
+	font-size: 20px;
+	font-style: italic;
+}
